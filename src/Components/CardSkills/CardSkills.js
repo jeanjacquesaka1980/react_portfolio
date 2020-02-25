@@ -2,8 +2,8 @@ import React from "react";
 
 // import icons
 import { IconContext } from "react-icons";
-import { FaHammer } from "react-icons/fa";
-import { FaHtml5 } from "react-icons/fa";
+import { FaHammer, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
 
 const CardSkills = () => {
   return (
@@ -13,7 +13,10 @@ const CardSkills = () => {
           <FaHammer className="icon mx-auto mt-3" />
           <div className="card-body">
             <h5 className="card-title">Skills</h5>
-            <FaHtml5 className="icon-skills my-2" />
+            <p className="card-text my-2">
+              <FaHtml5 className="icon-skills mr-2" />
+              HTML
+            </p>
             <div className="progress" style={{ height: "5px" }}>
               <div
                 className="progress-bar"
@@ -24,7 +27,10 @@ const CardSkills = () => {
                 aria-valuemax="100"
               ></div>
             </div>
-            <FaHtml5 className="icon-skills my-2" />
+            <p className="card-text my-2">
+              <FaCss3Alt className="icon-skills mr-2" />
+              CSS
+            </p>
             <div className="progress" style={{ height: "5px" }}>
               <div
                 className="progress-bar"
@@ -35,7 +41,10 @@ const CardSkills = () => {
                 aria-valuemax="100"
               ></div>
             </div>
-            <FaHtml5 className="icon-skills my-2" />
+            <p className="card-text my-2">
+              <IoLogoJavascript className="icon-skills mr-2" />
+              JavaScript
+            </p>
             <div className="progress" style={{ height: "5px" }}>
               <div
                 className="progress-bar"

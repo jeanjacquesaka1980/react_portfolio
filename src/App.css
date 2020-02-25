@@ -7,6 +7,11 @@
   width: 200px;
 }
 
+.underline {
+  border-top: 2px solid #4285F4;
+  width: 30%
+}
+
 /* MAIN */
 
 .icon {
@@ -17,4 +22,8 @@
 .icon-skills {
   height: 2em;
   width: auto;
+}
+
+#card-profile .list-group-item {
+  padding: .25em 1em !important;
 }
